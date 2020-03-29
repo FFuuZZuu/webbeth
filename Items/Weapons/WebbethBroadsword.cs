@@ -1,8 +1,6 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using Terraria.ID;
+﻿using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.ObjectData;
+using Webbeth.Items.Placeable;
 using static Terraria.ModLoader.ModContent;
 
 namespace Webbeth.Items.Weapons
@@ -31,4 +29,17 @@ namespace Webbeth.Items.Weapons
             item.crit = 2;
             item.melee = true;
         }
+
+        public override void AddRecipes()
+        {
+            ModRecipe recipe = new ModRecipe(mod);
+            // Takes: 10 Webbeth Bars
+            recipe.AddIngredient(ItemType<WebbethBar>(), 10);
+            // In: Furnace
+            recipe.AddTile(TileID.Furnaces);
+            // To make: A webbeth broadsword
+            recipe.SetResult(this);
+            recipe.AddRecipe();
+        }
+    }
 }
