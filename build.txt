@@ -1,0 +1,3 @@
+displayName = Webth
+author = Fuzu
+version = 0.1
