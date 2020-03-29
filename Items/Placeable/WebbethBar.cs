@@ -2,13 +2,13 @@
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace Webth.Items.Placeable
+namespace Webbeth.Items.Placeable
 {
-    public class WebthBar : ModItem
+    public class WebbethBar : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Webth Bar");
+            DisplayName.SetDefault("Webbeth Bar");
         }
 
         public override void SetDefaults()
@@ -24,14 +24,14 @@ namespace Webth.Items.Placeable
             item.autoReuse = true;
             item.useTurn = true;
             item.consumable = true;
-            item.createTile = TileType<Tiles.WebthBar>();
+            item.createTile = TileType<Tiles.WebbethBar>();
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
             // Takes: 4 Webth Ore
-            recipe.AddIngredient(ItemType<WebthOreItem>(), 4);
+            recipe.AddIngredient(ItemType<WebbethOreItem>(), 4);
             // In: Any Furnace
             recipe.AddTile(TileID.Furnaces);
             // To Make: Webth Bar

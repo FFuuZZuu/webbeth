@@ -2,9 +2,9 @@ using Terraria.ModLoader;
 
 namespace Webth
 {
-	public class Webth : Mod
+	public class Webbeth : Mod
 	{
-		public Webth()
+		public Webbeth()
 		{
 		}
 	}

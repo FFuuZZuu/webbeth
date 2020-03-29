@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Webth
 {
-    public class WebthWorld : ModWorld
+    public class WebbethWorld : ModWorld
     {
         public override void ModifyWorldGenTasks(List<GenPass> tasks, ref float totalWeight)
         {

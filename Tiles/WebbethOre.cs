@@ -4,9 +4,9 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using static Terraria.ModLoader.ModContent;
 
-namespace Webth.Tiles
+namespace Webbeth.Tiles
 {
-    public class WebthOre : ModTile
+    public class WebbethOre : ModTile
     {
         public override void SetDefaults()
         {
@@ -26,7 +26,7 @@ namespace Webth.Tiles
             AddMapEntry(new Color(100, 100, 100), name);
 
             dustType = 84;
-            drop = ItemType<Items.Placeable.WebthOreItem>();
+            drop = ItemType<Items.Placeable.WebbethOreItem>();
             soundType = 21;
             soundStyle = 1;
         }

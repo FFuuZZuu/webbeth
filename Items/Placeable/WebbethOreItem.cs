@@ -2,13 +2,13 @@
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace Webth.Items.Placeable
+namespace Webbeth.Items.Placeable
 {
-    public class WebthOreItem : ModItem
+    public class WebbethOreItem : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Webth Ore");
+            DisplayName.SetDefault("Webbeth Ore");
             ItemID.Sets.SortingPriorityMaterials[item.type] = 58;
         }
 
@@ -21,7 +21,7 @@ namespace Webth.Items.Placeable
             item.autoReuse = true;
             item.maxStack = 999;
             item.consumable = true;
-            item.createTile = TileType<Tiles.WebthOre>();
+            item.createTile = TileType<Tiles.WebbethOre>();
             item.width = 12;
             item.height = 12;
             item.value = 300;

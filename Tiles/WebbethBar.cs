@@ -3,16 +3,16 @@ using Terraria;
 using Microsoft.Xna.Framework;
 using static Terraria.ModLoader.ModContent;
 
-namespace Webth.Tiles
+namespace Webbeth.Tiles
 {
-    public class WebthBar : ModTile
+    public class WebbethBar : ModTile
     {
         public override void SetDefaults()
         {
             Main.tileSolidTop[Type] = true;
             Main.tileSolid[Type] = true;
             Main.tileFrameImportant[Type] = true;
-            drop = ItemType<Items.Placeable.WebthBar>();
+            drop = ItemType<Items.Placeable.WebbethBar>();
 
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Metal Bar");

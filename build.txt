@@ -1,3 +1,4 @@
-displayName = Webth
+displayName = Webbeth
 author = Fuzu
 version = 0.1
+homepage = https://github.com/FFuuZZuu/webbeth
