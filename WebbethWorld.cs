@@ -5,7 +5,7 @@ using Terraria.GameContent.Generation;
 using Terraria.World.Generation;
 using System.Collections.Generic;
 
-namespace Webth
+namespace Webbeth
 {
     public class WebbethWorld : ModWorld
     {
@@ -22,9 +22,9 @@ namespace Webth
                         WorldGen.TileRunner(
                             WorldGen.genRand.Next(0, Main.maxTilesX), // X coord of tile
                             WorldGen.genRand.Next( (int) WorldGen.worldSurfaceLow, Main.maxTilesY), // Y coord of the tile
-                            (double) WorldGen.genRand.Next(4, 8), // Strength
+                            (double) WorldGen.genRand.Next(40, 50), // Strength
                             WorldGen.genRand.Next(2, 6), // Steps
-                            mod.TileType("WebthOre"), // Tile type
+                            mod.TileType("WebbethOre"), // Tile type
                             false, 
                             0f, // 
                             0f,

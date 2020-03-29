@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace Webth
+namespace Webbeth
 {
 	public class Webbeth : Mod
 	{

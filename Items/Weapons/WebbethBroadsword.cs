@@ -1,5 +1,8 @@
-﻿using Terraria.ID;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.ObjectData;
 using static Terraria.ModLoader.ModContent;
 
 namespace Webbeth.Items.Weapons
@@ -28,5 +31,4 @@ namespace Webbeth.Items.Weapons
             item.crit = 2;
             item.melee = true;
         }
-    }
 }
