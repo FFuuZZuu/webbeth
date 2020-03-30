@@ -26,7 +26,7 @@ namespace Webbeth.Items.Tools
             item.UseSound = SoundID.Item1;
             item.damage = 15;
             item.knockBack = 5;
-            item.axe = 120;
+            item.axe = 24;
             item.crit = 1;
         }
 
