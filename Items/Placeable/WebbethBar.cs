@@ -25,6 +25,7 @@ namespace Webbeth.Items.Placeable
             item.useTurn = true;
             item.consumable = true;
             item.createTile = TileType<Tiles.WebbethBar>();
+            item.material = true;
         }
 
         public override void AddRecipes()
