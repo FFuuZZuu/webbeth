@@ -16,8 +16,8 @@ namespace Webbeth.Items.Weapons
         public override void SetDefaults()
         {
             item.value = 10000;
-            item.width = 74;
-            item.height = 74;
+            item.width = 69;
+            item.height = 69;
             item.useStyle = 1;
             item.useTime = 20;
             item.useAnimation = 20;
