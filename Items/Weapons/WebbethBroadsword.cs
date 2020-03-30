@@ -16,12 +16,13 @@ namespace Webbeth.Items.Weapons
         public override void SetDefaults()
         {
             item.value = 10000;
-            item.width = 2;
-            item.height = 2;
+            item.width = 74;
+            item.height = 74;
             item.useStyle = 1;
             item.useTime = 20;
             item.useAnimation = 20;
             item.rare = 3;
+            item.UseSound = SoundID.Item1;
 
             item.damage = 21;
             item.knockBack = 5;
