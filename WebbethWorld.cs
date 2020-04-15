@@ -22,11 +22,11 @@ namespace Webbeth
                         WorldGen.TileRunner(
                             WorldGen.genRand.Next(0, Main.maxTilesX), // X coord of tile
                             WorldGen.genRand.Next( (int) WorldGen.worldSurfaceLow, Main.maxTilesY), // Y coord of the tile
-                            (double) WorldGen.genRand.Next(4, 6), // Strength
+                            (double) WorldGen.genRand.Next(40, 60), // Strength
                             WorldGen.genRand.Next(2, 6), // Steps
                             mod.TileType("WebbethOre"), // Tile type
                             false, 
-                            0f, // 
+                            0f,
                             0f,
                             false,
                             true); // Overide existing tiles

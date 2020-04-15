@@ -1,9 +1,15 @@
 ﻿using Webbeth.Buffs;
 using Terraria.ModLoader;
 
-namespace Webbth
+namespace Webbeth
 {
-    public class WebbthPlayer : ModPlayer
+    public class WebbethPlayer : ModPlayer
     {
+        public static bool SpiderVision = false;
+
+        public override void ResetEffects()
+        {
+            SpiderVision = false;
+        }
     }
 }
